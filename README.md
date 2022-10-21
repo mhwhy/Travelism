@@ -2,7 +2,7 @@
 
 ## Apa itu Ticket?
 
-Web Ticket yang dibuat oleh <a href="https://github.com/adhiariyadi"> Adhi Ariyadi </a>. **Ticket adalah Website untuk pemesanan ticket dengan mudah melalui website.**
+Web Ticket yang dibuat oleh <a href="https://github.com/luthfyhakim"> Oceanic Team </a>. **Ticket adalah Website untuk pemesanan ticket dengan mudah melalui website.**
 
 ## Fitur apa saja yang tersedia di Ticket?
 
@@ -16,9 +16,9 @@ Web Ticket yang dibuat oleh <a href="https://github.com/adhiariyadi"> Adhi Ariya
 
 ## Release Date
 
-**Release date : 28 Apr 2020**
+**Release date : 21 Oct 2022**
 
-> Ticket merupakan project open source yang dibuat oleh Adhi Ariyadi. Kalian dapat download/fork/clone. Cukup beri stars di project ini agar memberiku semangat. Terima kasih!
+> Ticket merupakan project open source yang dibuat oleh Oceanic Team. Kalian dapat download / fork / clone. Cukup beri stars di project ini agar kami menjadi semangat. Terima kasih!
 
 ---
 
@@ -36,8 +36,8 @@ Web Ticket yang dibuat oleh <a href="https://github.com/adhiariyadi"> Adhi Ariya
 1. **Clone Repository**
 
 ```bash
-git clone https://github.com/adhiariyadi/Ticket-Laravel.git
-cd Ticket-Laravel
+git clone https://github.com/luthfyhakim/ticket-laravel.git
+cd ticket-laravel
 composer install
 cp .env.example .env
 ```
@@ -64,17 +64,12 @@ php artisan migrate --seed
 php artisan serve
 ```
 
-## Author
-
--   Facebook : <a href="https://web.facebook.com/adhiariyadi.me/"> Adhi Ariyadi</a>
--   LinkedIn : <a href="https://www.linkedin.com/in/adhiariyadi/"> Adhi Ariyadi</a>
-
 ## Contributing
 
 Contributions, issues and feature requests di persilahkan.
-Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!**
+Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Berhubung Project ini sudah terselesaikan, namun banyak fitur yang kalian dapat tambahkan, silahkan berkontribusi yaa!**
 
 ## License
 
--   Copyright © 2020 Adhi Ariyadi.
+-   Copyright © 2022 Oceanic Team.
 -   **Ticket is open-sourced software licensed under the MIT license.**
