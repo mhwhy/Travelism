@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;500;700&family=Viga&display=swap" rel="stylesheet" />
 
     <!-- style ku -->
-    <link rel="stylesheet" href="{{ asset('/Assets/css/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('/assets/css/style.css') }}" />
 
     <title>Travelism</title>
   </head>

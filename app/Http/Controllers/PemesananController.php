@@ -192,6 +192,6 @@ class PemesananController extends Controller
             'penumpang_id' => Auth::user()->id
         ]);
 
-        return redirect('/')->with('success', 'Pemesanan Tiket ' . $rute->transportasi->category->name . ' Success!');
+        return redirect('/dashboard')->with('success', 'Pemesanan Tiket ' . $rute->transportasi->category->name . ' Success!');
     }
 }

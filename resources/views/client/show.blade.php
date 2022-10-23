@@ -10,7 +10,7 @@
 @section('content')
   <div class="row justify-content-center">
     <div class="col-12" style="margin-top: -15px">
-      <a href="{{ url('/') }}" class="text-white btn"><i class="fas fa-arrow-left mr-2"></i> Kembali</a>
+      <a href="{{ url('/dashboard') }}" class="text-white btn"><i class="fas fa-arrow-left mr-2"></i> Kembali</a>
       <div class="row mt-2">
         @if (count($dataRute) > 0)
           @foreach ($dataRute as $data)
@@ -62,7 +62,7 @@
                 <div class="card-body text-center">
                   <h3 class="text-gray-900 font-weight-bold">Ticket tidak tersedia</h3>
                   <p class="text-muted">Ubah pencarian dengan data yang berbeda.</p>
-                  <a href="{{ url('/') }}" class="btn btn-primary" style="font-size: 16px; border-radius: 10rem;">
+                  <a href="{{ url('/dashboard') }}" class="btn btn-primary" style="font-size: 16px; border-radius: 10rem;">
                     Ubah Pencarian
                   </a>
                 </div>

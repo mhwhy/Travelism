@@ -15,7 +15,7 @@
 @section('content')
   <div class="row justify-content-center">
     <div class="col-12" style="margin-top: -15px">
-      <a href="{{ url('/') }}" class="text-white btn"><i class="fas fa-arrow-left mr-2"></i> Kembali</a>
+      <a href="{{ url('/dashboard') }}" class="text-white btn"><i class="fas fa-arrow-left mr-2"></i> Kembali</a>
       <div class="row mt-2">
         @if ($pemesanan->count() > 0)
           @foreach ($pemesanan as $data)
