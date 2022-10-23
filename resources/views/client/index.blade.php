@@ -48,7 +48,7 @@
     <div class="col-12">
       <div class="card shadow">
         <div class="card-body">
-          <form method="POST" action="{{ route('store') }}" class="user">
+          <form method="POST" action="{{ url('dashboard/store') }}" class="user">
           @csrf
             <div class="form-group">
               <label for="category">Category</label><br>

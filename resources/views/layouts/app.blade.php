@@ -103,7 +103,7 @@
       <div class="bg-gradient-primary" style="height: 160px; border-bottom-left-radius: 50% 20px; border-bottom-right-radius: 50% 20px;">
         <nav class="navbar navbar-expand navbar-light topbar mb-4">
           <div class="container">
-            <a class="title" href="{{ url('/') }}">
+            <a class="title" href="{{ url('/dashboard') }}">
               <div class="title-icon rotate-n-15">
                 <i class="fas fa-ticket-alt"></i>
               </div>

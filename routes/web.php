@@ -37,8 +37,13 @@ Route::middleware(['auth'])->group(function () {
     Route::middleware(['penumpang'])->group(function () {
         Route::get('/pesan/{kursi}/{data}', [PemesananController::class, 'pesan'])->name('pesan');
         Route::get('/cari/kursi/{data}', [PemesananController::class, 'edit'])->name('cari.kursi');
-        Route::resource('/', PemesananController::class);
+        Route::resource('/dashboard', PemesananController::class);
+        // Route::post('/dashboard', [PemesananController::class, 'store'])->name("dashboard.store");
         Route::get('/history', [LaporanController::class, 'history'])->name('history');
         Route::get('/{id}/{data}', [PemesananController::class, 'show'])->name('show');
     });
+});
+
+Route::get('/', function () {
+    return view('home');
 });
