@@ -47,7 +47,7 @@
                 <div class="card-body text-center">
                   <h3 class="text-gray-900 font-weight-bold">Tidak ada pemesanan</h3>
                   <p class="text-muted">Silahkan lakukan pemesanan ticket terlebih dahulu.</p>
-                  <a href="{{ url('/') }}" class="btn btn-primary" style="font-size: 16px; border-radius: 10rem;">
+                  <a href="{{ url('/dashboard') }}" class="btn btn-primary" style="font-size: 16px; border-radius: 10rem;">
                     Cari Ticket
                   </a>
                 </div>
