@@ -1,11 +1,12 @@
-<h1 align="center">Selamat datang di Ticket! 👋</h1>
+<h1 align="center">Selamat datang di Travelism App</h1>
 
 ## Apa itu Ticket?
 
-Web Ticket yang dibuat oleh <a href="https://github.com/luthfyhakim"> Oceanic Team </a>. **Ticket adalah Website untuk pemesanan ticket dengan mudah melalui website.**
+Web Travel yang dibuat oleh <a href="https://github.com/mhwhy/Travelism.git"> Oceanic Team </a>. **Travelism adalah Website untuk pemesanan ticket dengan mudah melalui website.**
 
-## Fitur apa saja yang tersedia di Ticket?
+## Fitur apa saja yang tersedia di Travelism?
 
+-   Halaman Tour
 -   Autentikasi Admin
 -   User & CRUD
 -   Rute & CRUD
@@ -16,9 +17,9 @@ Web Ticket yang dibuat oleh <a href="https://github.com/luthfyhakim"> Oceanic Te
 
 ## Release Date
 
-**Release date : 21 Oct 2022**
+**Release date : 04 12 2022**
 
-> Ticket merupakan project open source yang dibuat oleh Oceanic Team. Kalian dapat download / fork / clone. Cukup beri stars di project ini agar kami menjadi semangat. Terima kasih!
+> Travel merupakan project open source yang dibuat oleh Oceanic Team(myteam) dan telah saya remake. Kalian dapat download / fork / clone. Cukup beri stars di project ini agar saya menjadi semangat. Terima kasih!
 
 ---
 
@@ -36,8 +37,8 @@ Web Ticket yang dibuat oleh <a href="https://github.com/luthfyhakim"> Oceanic Te
 1. **Clone Repository**
 
 ```bash
-git clone https://github.com/luthfyhakim/ticket-laravel.git
-cd ticket-laravel
+git clone https://github.com/mhwhy/Travelism.git
+cd travelism
 composer install
 cp .env.example .env
 ```
@@ -46,7 +47,7 @@ cp .env.example .env
 
 ```bash
 DB_PORT=3306
-DB_DATABASE=laravel
+DB_DATABASE=my_travel
 DB_USERNAME=root
 DB_PASSWORD=
 ```
