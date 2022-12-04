@@ -1,57 +1,59 @@
-@extends('layouts.app')
-@section('title', 'Login')
-@section('content')
-  <div class="col-xl-5 col-lg-6 col-md-9">
-    <div class="card o-hidden border-0 shadow-lg my-5">
-      <div class="card-body p-0">
-        <!-- Nested Row within Card Body -->
-        <div class="row">
-          <div class="col-12">
-            <div class="p-5">
-              <div class="text-center">
-                <h1 class="h4 text-gray-900 mb-4">Selamat Datang!</h1>
-              </div>
-              <form method="POST" action="{{ route('login') }}" class="user">
-              @csrf
-                <div class="form-group">
-                  <input type="text" class="form-control form-control-user @error('username') is-invalid @enderror" name="username" required autocomplete="off" placeholder="Username">
-                  @error('username')
-                    <span class="invalid-feedback" role="alert">
-                      <strong>{{ $message }}</strong>
-                    </span>
-                  @enderror
-                </div>
-                <div class="form-group">
-                  <input type="password" class="form-control form-control-user @error('password') is-invalid @enderror" name="password" required placeholder="Password">
-                  @error('password')
-                    <span class="invalid-feedback" role="alert">
-                      <strong>{{ $message }}</strong>
-                    </span>
-                  @enderror
-                </div>
-                <div class="form-group">
-                  <div class="custom-control custom-checkbox small">
-                    <input type="checkbox" class="custom-control-input" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-                    <label class="custom-control-label" for="remember">{{ __('Remember Me') }}</label>
-                  </div>
-                </div>
-                <button type="submit" class="btn btn-primary btn-user btn-block">
-                  {{ __('Login') }}
-                </button>
-              </form>
-              <hr>
-              <div class="text-center">
-                <a class="small" href="{{ route('register') }}">Buat Akun!</a>
-              </div>
+
+
+
+
+{{-- new login --}}
+@extends('layouts.main')
+    <!-- login -->
+@section('container')
+<section id="login">
+   <div class="container">
+      <div class="right">
+        <img src="{{ asset('Assets/login/login.png') }}" alt="" />
+      </div>
+      <div class="login mt-5  ms-5">
+        @if (session('status'))
+            <div class="mb-4 font-medium text-sm text-green-600">
+                {{ session('status') }}
             </div>
+        @endif
+
+        <form method="POST" action="{{ route('login') }}">
+            @csrf
+          <h1 class="fs-3">Sign In</h1>
+
+          <div class="user-box">
+            <input type="text" class=" form-control-user @error('username') is-invalid @enderror" name="username" required autocomplete="off"  />
+            <label for="email">Username</label>
+            @error('username')
+            <span class="invalid-feedback" role="alert">
+              <strong>{{ $message }}</strong>
+            </span>
+          @enderror
           </div>
-        </div>
+          <div class="user-box">
+            <input type="password" class=" form-control-user @error('password') is-invalid @enderror" name="password" required />
+            <label for="password">password</label>
+            @error('password')
+            <span class="invalid-feedback" role="alert">
+              <strong>{{ $message }}</strong>
+            </span>
+          @enderror
+          </div>
+
+          <div class="d-flex justify-content-between">
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input bg-transparent border-white" id="remember_me" name="remember" />
+              <label class="text-white" style="font-size: 12px" for="exampleCheck1">Remember me</label>
+            </div>
+
+
+          </div>
+          <button style="width: 50%; margin-left:70px">Sign In</button>
+          <label style="font-size: 12px" class="text-white text-center mt-3"> klik disini untuk membuat akun !<a href="{{ route('register') }}" class="link text-decoration-none"> Sign Up</a></label>
+        </form>
       </div>
     </div>
-  </div>
+</section>
 @endsection
-@section('script')
-  <script>
-    $("body").addClass("bg-gradient-primary");
-  </script>
-@endsection
+

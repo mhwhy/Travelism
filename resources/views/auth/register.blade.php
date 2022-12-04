@@ -1,63 +1,44 @@
-@extends('layouts.app')
-@section('title', 'Login')
-@section('content')
-  <div class="col-xl-5 col-lg-6 col-md-9">
-    <div class="card o-hidden border-0 shadow-lg my-5">
-      <div class="card-body p-0">
-        <!-- Nested Row within Card Body -->
-        <div class="row">
-          <div class="col-12">
-            <div class="p-5">
-              <div class="text-center">
-                <h1 class="h4 text-gray-900 mb-4">Buat Akun!</h1>
-              </div>
-              <form method="POST" action="{{ route('register') }}" class="user">
-              @csrf
-                <div class="form-group">
-                  <input type="text" class="form-control form-control-user @error('name') is-invalid @enderror" name="name" required autocomplete="off" autofocus placeholder="Nama User">
-                  @error('name')
-                    <span class="invalid-feedback" role="alert">
-                      <strong>{{ $message }}</strong>
-                    </span>
-                  @enderror
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control form-control-user @error('username') is-invalid @enderror" name="username" required autocomplete="off" placeholder="Username">
-                  @error('username')
-                    <span class="invalid-feedback" role="alert">
-                      <strong>{{ $message }}</strong>
-                    </span>
-                  @enderror
-                </div>
-                <div class="form-group">
-                  <input type="password" class="form-control form-control-user @error('password') is-invalid @enderror" name="password" required placeholder="Password">
-                  @error('password')
-                    <span class="invalid-feedback" role="alert">
-                      <strong>{{ $message }}</strong>
-                    </span>
-                  @enderror
-                </div>
-                <div class="form-group">
-                  <input type="password" class="form-control form-control-user" name="password_confirmation" required placeholder="Confirm Password">
-                </div>
-                <button type="submit" class="btn btn-primary btn-user btn-block mt-4">
-                  {{ __('Register') }}
-                </button>
-              </form>
-              <hr>
-              <div class="text-center">
-                <a class="small" href="{{ route('login') }}">Login!</a>
-              </div>
+
+
+
+
+{{-- new rehister --}}
+@extends('layouts.main')
+
+@section('container')
+  {{-- register --}}
+    <section id="login">
+      <div class="container">
+        <div class="login  ms-5 mt-2">
+            <form method="POST" action="{{ route('register') }}">
+                @csrf
+            <h1 class="fs-3">Sign Up</h1>
+
+            <div class="user-box">
+              <input type="text" class=" form-control-user @error('name') is-invalid @enderror" name="name" required autocomplete="off" autofocus required />
+              <label for="">Nama User</label>
             </div>
-          </div>
+            <div class="user-box">
+              <input type="text" class=" form-control-user @error('username') is-invalid @enderror" name="username" required autocomplete="off" required/>
+              <label for="">Username</label>
+            </div>
+            <div class="user-box">
+              <input type="password" class=" form-control-user @error('password') is-invalid @enderror" name="password" required />
+              <label for="">Password</label>
+            </div>
+            <div class="user-box">
+              <input type="password" class=" form-control-user" name="password_confirmation" required " />
+              <label for="">Confirm Password</label>
+            </div>
+            <button>Sign Up</button>
+            <label style="font-size: 12px; color: white; margin-top: 3px; text-align: center">Already have an account ?<a href="{{ route('login') }}" class="link text-decoration-none"> Sign In</a></label>
+          </form>
+        </div>
+        <div class="right2">
+          <img src="{{ asset('Assets/login/reg.png') }}" alt="" />
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 @endsection
-@section('script')
-  <script>
-    $("body").addClass("bg-gradient-primary");
-  </script>
-@endsection
+
 

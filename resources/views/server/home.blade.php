@@ -64,4 +64,5 @@
       </div>
     </div>
   </div>
+  <button class="btn btn-danger"><a href="/" class="text-decoration-none text-white">Halaman Home</a></button>
 @endsection

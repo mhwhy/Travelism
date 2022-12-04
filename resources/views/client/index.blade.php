@@ -106,10 +106,12 @@
               Cari Tiket
             </button>
           </form>
+
         </div>
-      </div>
     </div>
-  </div>
+</div>
+<button class="btn btn-danger "><a href="/home" class="text-white text-decoration-none">Kembali ke Home</a></button>
+</div>
 @endsection
 @section('script')
   <script src="{{ asset('vendor/select2/dist/js/select2.full.min.js') }}"></script>
