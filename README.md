@@ -1,6 +1,6 @@
 <h1 align="center">Selamat datang di Travelism App</h1>
 
-## Apa itu Ticket?
+## Apa itu Travelism?
 
 Web Travel yang dibuat oleh <a href="https://github.com/mhwhy/Travelism.git"> Oceanic Team </a>. **Travelism adalah Website untuk pemesanan ticket dengan mudah melalui website.**
 
