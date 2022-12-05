@@ -50,3 +50,4 @@ Route::get('/', function () {
 });
 
 Route::get('/destination', [FrontController::class, 'destination']);
+Route::get('/hotels', [FrontController::class, 'hotels']);
