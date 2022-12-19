@@ -10,4 +10,9 @@ class FrontController extends Controller
     {
         return view('front.destination');
     }
+
+    public function hotels()
+    {
+        return view('front.hotels');
+    }
 }

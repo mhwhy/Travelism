@@ -13,23 +13,22 @@
               </h1>
               <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Temukan tempat terbaik untuk menginap, makan, berbelanja, atau kunjungi dari pakar lokal</p>
               <div class="block-17 my-4">
-                <form action="" method="post" class="d-block d-flex">
+                <form action="#" method="post" class="d-block d-flex">
                   <div class="fields d-block d-flex">
                     <div class="textfield-search one-third">
-                      <input type="text" class="form-control" placeholder="Ex: food, service, hotel" />
+                      <input type="text" class="form-control" placeholder="Contoh: makanan, layanan, hotel" />
                     </div>
                     <div class="select-wrap one-third">
                       <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control" placeholder="Keyword search">
-                        <option value="">Where</option>
-                        <option value="">San Francisco USA</option>
-                        <option value="">Berlin Germany</option>
-                        <option value="">Lodon United Kingdom</option>
-                        <option value="">Paris Italy</option>
+                      <select name="" id="" class="form-control" placeholder="Pencarian kata kunci">
+                        <option value="">Dimana</option>
+                        <option value="">Bali</option>
+                        <option value="">Jogja</option>
+                        <option value="">Semarang</option>
                       </select>
                     </div>
                   </div>
-                  <input type="submit" class="search-submit btn btn-primary" value="Search" />
+                  <input type="submit" class="search-submit btn btn-primary" value="Cari" />
                 </form>
               </div>
               <p>Atau Telusuri Sorotan</p>
@@ -38,10 +37,10 @@
                   ><a href="#"><i class="flaticon-fork"></i>Restoran</a></span
                 >
                 <span class="d-flex justify-content-md-center align-items-md-center"
-                  ><a href="#"><i class="flaticon-hotel"></i>Hotel</a></span
+                  ><a href="/hotels"><i class="flaticon-hotel"></i>Hotel</a></span
                 >
                 <span class="d-flex justify-content-md-center align-items-md-center"
-                  ><a href="#"><i class="flaticon-meeting-point"></i>Tempat</a></span
+                  ><a href="/destination"><i class="flaticon-meeting-point"></i>Tempat</a></span
                 >
 
               </p>
@@ -195,134 +194,148 @@
         <div class="container">
           <div class="row justify-content-start mb-5 pb-3">
             <div class="col-md-7 heading-section ftco-animate">
-              <h2 class="mb-4"><strong>Kita</strong> Punya Lebih Dari Hotel</h2>
-              <span class="subheading">Temukan akomodasi yang pas dengan kebutuhanmu.</span>
+              <h2 class="mb-4"><strong>Hotel</strong>  pilihan buat segala kebutuhan</h2>
+              <span class="subheading">Harga oke. Lokasi strategis. Temuin yang kamu butuhin di sini!</span>
 
             </div>
           </div>
         </div>
         <div class="container-fluid">
           <div class="row">
+
+            {{-- hotel gaia bandung --}}
             <div class="col-sm col-md-6 col-lg ftco-animate">
               <div class="destination">
-                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel-1.jpg)">
+                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel/hotel1.webp)">
                   <div class="icon d-flex justify-content-center align-items-center">
                     <span class="icon-search2"></span>
                   </div>
                 </a>
                 <div class="text p-3">
                   <div class="d-flex">
-                    <div class="one">
-                      <h3><a href="#">Apartemen</a></h3>
+                    <div class="one" style="width: 100%">
+                      <h3><a href="#">The Gaia Hotel Bandung</a></h3>
                       <p class="rate">
 
-                        <span>8 Rating</span>
-                      </p>
-                    </div>
-                    <div class="two">
-                      <span class="price per-price">$40<br /><small>/night</small></span>
+                          <span>Cidadap, Bandung</span> <br>
+                          <span>8 Rating</span>
+                        </p>
+                        <div class="two">
+                            <span class="price per-price">IDR.4.915.000</span>
+                        </div>
                     </div>
                   </div>
 
                 </div>
               </div>
             </div>
+            {{-- hotel yuan gorden pasar baru --}}
             <div class="col-sm col-md-6 col-lg ftco-animate">
               <div class="destination">
-                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel-2.jpg)">
+                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel/hotel2.webp)">
                   <div class="icon d-flex justify-content-center align-items-center">
                     <span class="icon-search2"></span>
                   </div>
                 </a>
                 <div class="text p-3">
                   <div class="d-flex">
-                    <div class="one">
-                      <h3><a href="#">Pemginapan Unik</a></h3>
+                    <div class="one" style="width: 100%">
+                      <h3><a href="#">Yuan Garden Pasar Baru</a></h3>
                       <p class="rate">
 
-                        <span>8 Rating</span>
-                      </p>
-                    </div>
-                    <div class="two">
-                      <span class="price per-price">$40<br /><small>/night</small></span>
+                          <span>Sawah Besar, Jakarta Pusat</span> <br>
+                          <span>8 Rating</span>
+                        </p>
+                        <div class="two">
+                            <span class="price per-price">IDR.805.000</span>
+                        </div>
                     </div>
                   </div>
 
                 </div>
               </div>
             </div>
+
+            {{-- park 5 simatupang --}}
             <div class="col-sm col-md-6 col-lg ftco-animate">
               <div class="destination">
-                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel-3.jpg)">
+                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel/hotel3.webp)">
                   <div class="icon d-flex justify-content-center align-items-center">
                     <span class="icon-search2"></span>
                   </div>
                 </a>
                 <div class="text p-3">
                   <div class="d-flex">
-                    <div class="one">
-                      <h3><a href="#">Villa</a></h3>
+                    <div class="one" style="width: 100%">
+                      <h3><a href="#">Park 5 Simatupang</a></h3>
                       <p class="rate">
 
-                        <span>8 Rating</span>
-                      </p>
-                    </div>
-                    <div class="two">
-                      <span class="price per-price">$40<br /><small>/night</small></span>
+                          <span>Cilandak ,Jakarta Selatan</span> <br>
+                          <span>8 Rating</span>
+                        </p>
+                        <div class="two">
+                            <span class="price per-price">IDR.660.000</span>
+                        </div>
                     </div>
                   </div>
 
                 </div>
               </div>
             </div>
+
+            {{-- royal tulip darmo surabaya --}}
             <div class="col-sm col-md-6 col-lg ftco-animate">
               <div class="destination">
-                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel-4.jpg)">
+                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel/hotel4.webp)">
                   <div class="icon d-flex justify-content-center align-items-center">
                     <span class="icon-search2"></span>
                   </div>
                 </a>
                 <div class="text p-3">
                   <div class="d-flex">
-                    <div class="one">
-                      <h3><a href="#">Penginapan Budget</a></h3>
+                    <div class="one" style="width: 100%">
+                      <h3><a href="#">Royal Tulip Darmo Surabaya</a></h3>
                       <p class="rate">
 
-                        <span>8 Rating</span>
-                      </p>
-                    </div>
-                    <div class="two">
-                      <span class="price per-price">$40<br /><small>/night</small></span>
+                          <span>Tegal Sari, Surabaya</span> <br>
+                          <span>8 Rating</span>
+                        </p>
+                        <div class="two">
+                            <span class="price per-price">IDR.4.915.000</span>
+                        </div>
                     </div>
                   </div>
 
                 </div>
               </div>
             </div>
+            {{-- Viva Dash Hotel Seminyak --}}
             <div class="col-sm col-md-6 col-lg ftco-animate">
               <div class="destination">
-                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel-5.jpg)">
+                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/hotel/hotel5.webp)">
                   <div class="icon d-flex justify-content-center align-items-center">
                     <span class="icon-search2"></span>
                   </div>
                 </a>
                 <div class="text p-3">
                   <div class="d-flex">
-                    <div class="one">
-                      <h3><a href="#">Rumah</a></h3>
+                    <div class="one" style="width: 100%">
+                      <h3><a href="#">Viva Dash Hotel Seminyak</a></h3>
                       <p class="rate">
 
-                        <span>8 Rating</span>
-                      </p>
-                    </div>
-                    <div class="two">
-                      <span class="price per-price">$40<br /><small>/night</small></span>
+                          <span>Seminyak, Bandung</span> <br>
+                          <span>8 Rating</span>
+                        </p>
+                        <div class="two">
+                            <span class="price per-price">IDR.4.915.000</span>
+                        </div>
                     </div>
                   </div>
 
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </section>
