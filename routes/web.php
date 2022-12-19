@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\FrontController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\informasiController;
 use App\Http\Controllers\LaporanController;
 use App\Http\Controllers\PemesananController;
 use App\Http\Controllers\RuteController;
@@ -51,3 +52,6 @@ Route::get('/', function () {
 
 Route::get('/destination', [FrontController::class, 'destination']);
 Route::get('/hotels', [FrontController::class, 'hotels']);
+
+// informasi
+Route::get('/danautoba', [informasiController::class, 'danautoba']);

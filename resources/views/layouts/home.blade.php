@@ -11,6 +11,7 @@
     @include('style.stylehome')
 
     <title>Travelism</title>
+    <link rel="shortcut icon" href="{{ asset('/img/mylogo.png') }}" type="image/x-icon">
 </head>
 <body>
    @include('layouts.navbarfront')

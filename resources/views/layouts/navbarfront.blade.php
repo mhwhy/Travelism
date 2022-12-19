@@ -9,7 +9,6 @@
           <li class="nav-item"><a href="/destination" class="nav-link">Wisata</a></li>
           <li class="nav-item"><a href="/hotels" class="nav-link">Hotel</a></li>
           <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Kontak</a></li>
           @if (Route::has('login'))
           <li class="nav-item mx-2">
           @auth

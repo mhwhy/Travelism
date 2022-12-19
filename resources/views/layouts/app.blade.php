@@ -10,8 +10,8 @@
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>Ticket - @yield('title')</title>
-  <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
+  <title>Travelism - @yield('title')</title>
+  <link rel="shortcut icon" href="{{ asset('img/mylogo.png') }}">
 
   <!-- Custom fonts for this template-->
   <link href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
@@ -103,14 +103,11 @@
       </div>
       <!-- End of Page Wrapper -->
     @else
-      <div class="bg-gradient-primary" style="height: 160px; border-bottom-left-radius: 50% 20px; border-bottom-right-radius: 50% 20px;">
+      <div  style="height: 160px; border-bottom-left-radius: 50% 20px; border-bottom-right-radius: 50% 20px; background: #227C70">
         <nav class="navbar navbar-expand navbar-light topbar mb-4">
           <div class="container">
             <a class="title" href="{{ url('/dashboard') }}">
-              <div class="title-icon rotate-n-15">
-                <i class="fas fa-ticket-alt"></i>
-              </div>
-              <div class="title-text mx-3">Ticket</div>
+             <img src="{{ asset('img/mylogo.png') }}" width="140" class="mt-3" alt="travelism">
             </a>
             <!-- Topbar Navbar -->
             <ul class="navbar-nav ml-auto">
@@ -149,8 +146,8 @@
           </div>
         </nav>
       </div>
-      <div style="margin-top: -70px">
-        <div class="container">
+      <div style="margin-top: -70px;">
+        <div class="container ">
           @yield('content')
         </div>
       </div>

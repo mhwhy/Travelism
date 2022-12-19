@@ -27,40 +27,35 @@
                 <h1>Keindahan pesona Indonesia yang membuatnya wajib dijelajahi</h1>
                 <p>Dengan bentangan gugusan pulau dari Sabang hingga Merauke, Indonesia memiliki keberagaman wisata alam, budaya, hingga kuliner yang menggoda. Ramah tamah warga lokal yang membuat wisatawan nyaman dan merasa di kampung halaman juga semakin indah ketika unsur adat istiadat tradisional yang masih autentik dikenalkan. Selain itu, kekayaan flora serta fauna langka nan memesona pun tak kalah seru untuk menambah daftar pengalaman terbaik yang bisa dirasakan saat menjelajahi Indonesia. Semua keindahan ini cuma bisa ditemukan #DiIndonesiaAja.</p>
                 <hr>
+                {{-- danau toba --}}
                 <div class="col-md-4 ftco-animate">
                     <div class="destination">
-                              <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destination-1.jpg);">
+                              <a href="/danautoba" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destination-1.jpg);">
                                   <div class="icon d-flex justify-content-center align-items-center">
-                              <span class="icon-search2"></span>
-                          </div>
+                                      <span class="icon-search2"></span>
+                                 </div>
                               </a>
+
                               <div class="text p-3">
                                   <div class="d-flex">
                                       <div class="one">
-                                          <h3><a href="#">Paris, Italy</a></h3>
-                                          <p class="rate">
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star-o"></i>
-                                              <span>8 Rating</span>
-                                          </p>
+                                          <h3><a href="#">Danau Toba</a></h3>
                                       </div>
                                       <div class="two">
-                                          <span class="price">$200</span>
+                                          <span class="price">Rp.200</span>
                                       </div>
                                   </div>
-                                  <p>Far far away, behind the word mountains, far from the countries</p>
-                                  <p class="days"><span>2 days 3 nights</span></p>
+                                  <p>Danau Toba adalah sebuah keajaiban alam yang sangat menakjubkan</p>
                                   <hr>
                                   <p class="bottom-area d-flex">
-                                      <span><i class="icon-map-o"></i> San Franciso, CA</span>
-                                      <span class="ml-auto"><a href="#">Discover</a></span>
+                                      <span><i class="icon-map-o"></i> Sumatera Utara</span>
+                                      <span class="ml-auto"><a href="/danautoba">Lihat Selengkapnya</a></span>
                                   </p>
                               </div>
-                          </div>
-                      </div>
+                    </div>
+                </div>
+
+                {{-- borobudur --}}
                       <div class="col-md-4 ftco-animate">
                           <div class="destination">
                               <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destination-2.jpg);">
@@ -71,30 +66,23 @@
                               <div class="text p-3">
                                   <div class="d-flex">
                                       <div class="one">
-                                          <h3><a href="#">Paris, Italy</a></h3>
-                                          <p class="rate">
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star-o"></i>
-                                              <span>8 Rating</span>
-                                          </p>
+                                          <h3><a href="#">Candi Borobudur</a></h3>
                                       </div>
                                       <div class="two">
-                                          <span class="price">$200</span>
+                                          <span class="price">Rp.200</span>
                                       </div>
                                   </div>
-                                  <p>Far far away, behind the word mountains, far from the countries</p>
-                                  <p class="days"><span>2 days 3 nights</span></p>
+                                  <p>Sobat Pesona pastinya sudah tidak asing kan dengan Candi Borobudur?</p>
                                   <hr>
                                   <p class="bottom-area d-flex">
-                                      <span><i class="icon-map-o"></i> San Franciso, CA</span>
-                                      <span class="ml-auto"><a href="#">Discover</a></span>
+                                      <span><i class="icon-map-o"></i> Magelang,Jateng</span>
+                                      <span class="ml-auto"><a href="#">Lihat Selengkapnya</a></span>
                                   </p>
                               </div>
                           </div>
                       </div>
+
+                      {{-- mandalika --}}
                       <div class="col-md-4 ftco-animate">
                           <div class="destination">
                               <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destination-3.jpg);">
@@ -105,30 +93,23 @@
                               <div class="text p-3">
                                   <div class="d-flex">
                                       <div class="one">
-                                          <h3><a href="#">Paris, Italy</a></h3>
-                                          <p class="rate">
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star-o"></i>
-                                              <span>8 Rating</span>
-                                          </p>
+                                          <h3><a href="#">Mandalika</a></h3>
                                       </div>
                                       <div class="two">
-                                          <span class="price">$200</span>
+                                          <span class="price">Rp.200</span>
                                       </div>
                                   </div>
-                                  <p>Far far away, behind the word mountains, far from the countries</p>
-                                  <p class="days"><span>2 days 3 nights</span></p>
+                                  <p> salah satu kepingan surga tersembunyi di Bumi Ibu Pertiwi ini bisa ditemukan di NTB</p>
                                   <hr>
                                   <p class="bottom-area d-flex">
-                                      <span><i class="icon-map-o"></i> San Franciso, CA</span>
-                                      <span class="ml-auto"><a href="#">Discover</a></span>
+                                      <span><i class="icon-map-o"></i> Lombok ,NTB</span>
+                                      <span class="ml-auto"><a href="#">lihat Selengkapnya</a></span>
                                   </p>
                               </div>
                           </div>
                       </div>
+
+                      {{-- labuan bajo --}}
                       <div class="col-md-4 ftco-animate">
                           <div class="destination">
                               <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destination-4.jpg);">
@@ -139,30 +120,23 @@
                               <div class="text p-3">
                                   <div class="d-flex">
                                       <div class="one">
-                                          <h3><a href="#">Paris, Italy</a></h3>
-                                          <p class="rate">
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star-o"></i>
-                                              <span>8 Rating</span>
-                                          </p>
+                                          <h3><a href="#">Labuan Bajo</a></h3>
                                       </div>
                                       <div class="two">
                                           <span class="price">$200</span>
                                       </div>
                                   </div>
-                                  <p>Far far away, behind the word mountains, far from the countries</p>
-                                  <p class="days"><span>2 days 3 nights</span></p>
+                                  <p>Sepetak Surga yang Terletak di Indonesia Timur</p>
                                   <hr>
                                   <p class="bottom-area d-flex">
-                                      <span><i class="icon-map-o"></i> San Franciso, CA</span>
-                                      <span class="ml-auto"><a href="#">Discover</a></span>
+                                      <span><i class="icon-map-o"></i> Manggarai Barat, NTT</span>
+                                      <span class="ml-auto"><a href="#">lihat Selengkapnya</a></span>
                                   </p>
                               </div>
                           </div>
                       </div>
+
+                      {{-- lIKUPANG --}}
                       <div class="col-md-4 ftco-animate">
                           <div class="destination">
                               <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destination-5.jpg);">
@@ -173,30 +147,23 @@
                               <div class="text p-3">
                                   <div class="d-flex">
                                       <div class="one">
-                                          <h3><a href="#">Paris, Italy</a></h3>
-                                          <p class="rate">
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star-o"></i>
-                                              <span>8 Rating</span>
-                                          </p>
+                                          <h3><a href="#">Pantai likupang</a></h3>
                                       </div>
                                       <div class="two">
                                           <span class="price">$200</span>
                                       </div>
                                   </div>
-                                  <p>Far far away, behind the word mountains, far from the countries</p>
-                                  <p class="days"><span>2 days 3 nights</span></p>
+                                  <p>Mempersembahkan Keindahan Indonesia yang Tak Tertandingi</p>
                                   <hr>
                                   <p class="bottom-area d-flex">
-                                      <span><i class="icon-map-o"></i> San Franciso, CA</span>
-                                      <span class="ml-auto"><a href="#">Discover</a></span>
+                                      <span><i class="icon-map-o"></i>Sulawesi Utara</span>
+                                      <span class="ml-auto"><a href="#">Lihat Selengkapnya</a></span>
                                   </p>
                               </div>
                           </div>
                       </div>
+
+                      {{-- Bali --}}
                       <div class="col-md-4 ftco-animate">
                           <div class="destination">
                               <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/destination-6.jpg);">
@@ -207,26 +174,17 @@
                               <div class="text p-3">
                                   <div class="d-flex">
                                       <div class="one">
-                                          <h3><a href="#">Paris, Italy</a></h3>
-                                          <p class="rate">
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star"></i>
-                                              <i class="icon-star-o"></i>
-                                              <span>8 Rating</span>
-                                          </p>
+                                          <h3><a href="#">Bali</a></h3>
                                       </div>
                                       <div class="two">
                                           <span class="price">$200</span>
                                       </div>
                                   </div>
-                                  <p>Far far away, behind the word mountains, far from the countries</p>
-                                  <p class="days"><span>2 days 3 nights</span></p>
+                                  <p>Siapa pun tak ada yang bisa menyangkal keindahan yang ditawarkan Pulau Dewata.</p>
                                   <hr>
                                   <p class="bottom-area d-flex">
-                                      <span><i class="icon-map-o"></i> San Franciso, CA</span>
-                                      <span class="ml-auto"><a href="#">Discover</a></span>
+                                      <span><i class="icon-map-o"></i> Bali</span>
+                                      <span class="ml-auto"><a href="#">Lihat Selengkapnya</a></span>
                                   </p>
                               </div>
                           </div>

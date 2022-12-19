@@ -41,6 +41,19 @@
       right: 1px;
       width: 20px;
     }
+
+    .btn-back{
+      background: #227C70;
+      padding: 10px;
+      border-radius: 10px;
+      border: 2px solid red;
+    }
+
+    .btn-back:hover{
+      background: red;
+      color: #fff;
+      transition: 0.5s ease-in-out
+    }
   </style>
 @endsection
 @section('content')
@@ -102,15 +115,15 @@
                 required
               />
             </div>
-            <button type="submit" class="btn btn-primary btn-user btn-block mt-4" style="font-size: 16px">
+            <button type="submit" class="btn btn-success btn-user btn-block mt-4" style="font-size: 16px">
               Cari Tiket
             </button>
           </form>
 
         </div>
+      </div>
     </div>
-</div>
-<button class="btn btn-danger "><a href="/home" class="text-white text-decoration-none">Kembali ke Home</a></button>
+    <button class="mt-4 btn-back"><a href="/home" class="text-white mt-3 text-decoration-none " >Kembali ke Home</a></button>
 </div>
 @endsection
 @section('script')
