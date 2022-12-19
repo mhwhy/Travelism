@@ -17,9 +17,9 @@ class UsersSeeder extends Seeder
     {
         DB::table('users')->insert([
             'id' => 1,
-            'name' => 'Admin',
-            'username' => 'admin',
-            'password' => Hash::make('admin123'),
+            'name' => 'wawahyuadmin',
+            'username' => 'wahyuadmin@gmail.com',
+            'password' => Hash::make('wahyuadmin@gmail.com'),
             'level' => 'Admin',
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s')
