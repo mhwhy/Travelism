@@ -8,11 +8,24 @@ class FrontController extends Controller
 {
     public function destination()
     {
-        return view('front.destination');
+        return view('front.inNavbar.paketDestinasi');
     }
 
-    public function hotels()
+    public function layanan()
     {
-        return view('front.hotels');
+        return view('front.inNavbar.layanan');
+    }
+
+    public function about()
+    {
+        return view('front.inNavbar.tentang');
+    }
+    public function blog()
+    {
+        return view('front.inNavbar.blog');
+    }
+    public function blogDetail()
+    {
+        return view('front.inNavbar.blogDetail');
     }
 }

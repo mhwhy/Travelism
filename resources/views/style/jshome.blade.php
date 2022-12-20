@@ -1,18 +1,15 @@
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="{{ asset('ASET2/lib/easing/easing.min.js') }}"></script>
+  <script src="{{ asset('ASET2/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+  <script src="{{ asset('ASET2/lib/tempusdominus/js/moment.min.js') }}"></script>
+  <script src="{{ asset('ASET2/lib/tempusdominus/js/moment-timezone.min.js') }}"></script>
+  <script src="{{ asset('ASET2/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js') }}"></script>
 
-  <script src="{{ asset('js/jquery.min.js') }}"></script>
-  <script src="{{ asset('js/jquery-migrate-3.0.1.min.js') }}"></script>
-  <script src="{{ asset('js/popper.min.js') }}"></script>
-  <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-  <script src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
-  <script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
-  <script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
-  <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-  <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
-  <script src="{{ asset('js/aos.js') }}"></script>
-  <script src="{{ asset('js/jquery.animateNumber.min.js') }}"></script>
-  <script src="{{ asset('js/bootstrap-datepicker.js') }}"></script>
-  <script src="{{ asset('js/jquery.timepicker.min.js') }}"></script>
-  <script src="{{ asset('js/scrollax.min.js') }}"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="{{ asset('js/google-map.js') }}"></script>
-  <script src="{{ asset('js/main.js') }}"></script>
+  <!-- Contact Javascript File -->
+  <script src="{{ asset('ASET2/mail/jqBootstrapValidation.min.js') }}"></script>
+  <script src="{{ asset('ASET2/mail/contact.js') }}"></script>
+
+  <!-- Template Javascript -->
+  <script src="{{ asset('ASET2/js/main.js') }}"></script>

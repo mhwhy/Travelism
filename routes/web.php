@@ -50,8 +50,8 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/destination', [FrontController::class, 'destination']);
-Route::get('/hotels', [FrontController::class, 'hotels']);
-
-// informasi
-Route::get('/danautoba', [informasiController::class, 'danautoba']);
+Route::get('/about', [FrontController::class, 'about']);
+Route::get('/layanan', [FrontController::class, 'layanan']);
+Route::get('/destinasi', [FrontController::class, 'destination']);
+Route::get('/blog', [FrontController::class, 'blog']);
+Route::get('/blogDetail', [FrontController::class, 'blogDetail']);
